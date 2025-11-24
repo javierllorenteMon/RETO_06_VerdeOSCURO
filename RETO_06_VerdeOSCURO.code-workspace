@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        // EXTENSIONES Y CONFIGURACIÓN
+        "python.pythonPath": "C:/Users/Javi/anaconda3/envs/reto06_VerdeOscuro/python.exe",
+        "python.defaultInterpreterPath": "C:/Users/Javi/anaconda3/envs/reto06_VerdeOscuro/python.exe",
+
+        // OMITIR ARCHIVOS BASURA
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/.ipynb_checkpoints": true
+        },
+
+        // FORMATO Y LINTING
+        "editor.formatOnSave": true,
+
+        // NOTEBOOKS
+        "jupyter.askForKernelRestart": false
+    }
+}
