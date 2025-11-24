@@ -1,0 +1,50 @@
+INSTRUCCIONES PARA INSTALAR EL ENTORNO (reto06_VerdeOscuro)
+
+1) Requisitos previos
+- Tener Anaconda o Miniconda instalado.
+- Tener este archivo y el archivo entorno.txt dentro de la carpeta del proyecto.
+
+---------------------------------------------------------
+
+2) Crear el entorno con la versión correcta de Python
+
+Abrir Anaconda Prompt y ejecutar:
+
+conda create -n reto06_VerdeOscuro python=3.12.12
+
+Cuando pregunte "Proceed ([y]/n)?" escribir: y
+
+---------------------------------------------------------
+
+3) Activar el entorno
+
+conda activate reto06_VerdeOscuro
+
+Debe aparecer: (reto06_VerdeOscuro)
+
+---------------------------------------------------------
+
+4) Instalar las mismas librerías que Javi
+
+Asegúrate de estar en la carpeta donde está entorno.txt y ejecutar:
+
+pip install -r entorno.txt
+
+---------------------------------------------------------
+
+5) Crear el kernel para VS Code / Jupyter
+
+python -m ipykernel install --user --name reto06_VerdeOscuro --display-name "Python (reto06_VerdeOscuro)"
+
+---------------------------------------------------------
+
+6) Seleccionar el intérprete en VS Code
+
+- Abre la carpeta del proyecto.
+- Abajo a la derecha: “Seleccionar intérprete”.
+- Elegir: Python (reto06_VerdeOscuro)
+
+---------------------------------------------------------
+
+7) Listo
+El entorno ya está configurado y pueden trabajar en el proyecto.
