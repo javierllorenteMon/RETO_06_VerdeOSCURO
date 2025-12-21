@@ -47,7 +47,7 @@ RETO_06_VerdeOSCURO/
 1) Requisitos previos
 - Tener Anaconda o Miniconda instalado.
 - Tener Git y Visual Studio Code instalados.
-- Tener el archivo environment.yml dentro de la carpeta del proyecto.
+- Tener el archivo entorno_VERDEOSCURO_RET06.yml dentro de la carpeta del proyecto.
 
 ------------------------------------------------------------
 
@@ -56,7 +56,7 @@ RETO_06_VerdeOSCURO/
 Abrir Anaconda Prompt, situarse en la carpeta del proyecto
 (donde está el archivo environment.yml) y ejecutar:
 
-conda env create -f environment.yml
+conda env create -f entorno_VERDEOSCURO_RET06.yml
 
 Cuando pregunte:
 Proceed ([y]/n)?
