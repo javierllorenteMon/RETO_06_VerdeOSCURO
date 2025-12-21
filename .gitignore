@@ -37,7 +37,6 @@ venv/
 .venv/
 ENV/
 *.conda
-*.yml
 
 # ---------------------------------------
 # ARCHIVOS TEMPORALES
