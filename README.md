@@ -65,7 +65,7 @@ RETO_06_VerdeOSCURO/
 2) Crear el entorno con Conda
 
 Abrir Anaconda Prompt, situarse en la carpeta del proyecto
-(donde está el archivo environment.yml) y ejecutar:
+(donde está el archivo entorno_VERDEOSCURO_RET06.yml) y ejecutar:
 
 conda env create -f entorno_VERDEOSCURO_RET06.yml
 
