@@ -18,5 +18,12 @@ dependencies:
   - ipykernel
   - openpyxl
   - plotly
+  - missingno
+  - holidays
+  - requests
+  - beautifulsoup4
+  - wordcloud
+  - nltk
+  - imbalanced-learn
 
 prefix: C:\Users\Javi\.conda\envs\reto06_VerdeOscuro
