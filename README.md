@@ -5,7 +5,7 @@ Proyecto de análisis y modelado de cancelaciones en Líbere.
 ============================================================
 
 ## DESCRIPCIÓN DEL PROYECTO
-------------------------------------------------------------
+
 Este proyecto analiza la problemática de las cancelaciones en Líbere mediante
 el uso de datos internos y técnicas de análisis de datos, visualización,
 segmentación de clientes y modelos predictivos.
@@ -21,22 +21,33 @@ obtenidos.
 ```
 RETO_06_VerdeOSCURO/
 │
+├── 01-Limpieza.ipynb
+├── 02-Analisis_Exploratorio.ipynb
+├── 03-webscrapping.ipynb
+├── 04-api.ipynb
+├── 05-Dummies_Clustering.ipynb
+├── 06-Clustering.ipynb
+├── 07-Modelado.ipynb
+│
+├── entorno_VERDEOSCURO_RET06.yml
+├── .gitignore
+├── RETO_06_VerdeOSCURO.code-workspace
+├── README.md
+│
 ├── packages/
 │   ├── EDA/
-│   ├── Preprocesamiento/
+│   └── Preprocesamiento/
+│       └── funciones_limpieza.py
 │
 ├── Datos/
 │   ├── Originales/
-│   ├── Limpios/
+│   └── Transformados/
+│
+├── Graficos/
 │
 ├── config_files/
-│
-├── notebooks / scripts (.ipynb / .py)
-│
-├── environment.yml
-├── .gitignore
-├── RETO_06_VerdeOSCURO.code-workspace
-└── README.md
+│   └── api_config.json
+
 ```
 
 ============================================================
@@ -96,25 +107,7 @@ El entorno ya está configurado y se puede trabajar en el proyecto.
 
 ============================================================
 
-## CONTROL DE VERSIONES (GIT)
-------------------------------------------------------------
-- El proyecto utiliza Git para control de versiones.
-- Los archivos temporales (__pycache__, .pyc, checkpoints, etc.)
-  están ignorados mediante .gitignore.
-- No se suben entornos virtuales ni archivos generados automáticamente.
-
-============================================================
-
-## NOTAS IMPORTANTES
-------------------------------------------------------------
-- NO trabajar dentro de carpetas sincronizadas con OneDrive.
-- El entorno se define exclusivamente mediante environment.yml.
-- No se utiliza pip ni archivos requirements.txt o entorno.txt.
-- El proyecto debe abrirse siempre usando el workspace de VS Code.
-
-============================================================
-
 ## AUTORÍA
 ------------------------------------------------------------
 Proyecto desarrollado por el Grupo Verde Oscuro  
-Reto 06 — Programación y Bases de Datos II
+Reto 06 
