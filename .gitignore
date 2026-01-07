@@ -51,7 +51,7 @@ ENV/
 # ---------------------------------------
 # Datos/
 Datos/Originales/*.csv
-Datos/Limpios/*.csv
+Datos/Transformados/*.csv
 #Graficos
 *.png
 
