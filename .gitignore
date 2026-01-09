@@ -47,12 +47,13 @@ ENV/
 *.swp
 
 # ---------------------------------------
-# DATOS GRANDES (OPCIONAL)
-# Si NO quieres subir datasets, descomenta:
+# DATOS GRANDES
 # ---------------------------------------
 # Datos/
-# Datos/Originales/
-# Datos/Limpios/
+Datos/Originales/*.csv
+Datos/Transformados/*.csv
+#Graficos
+*.png
 
 # ---------------------------------------
 # OTROS
