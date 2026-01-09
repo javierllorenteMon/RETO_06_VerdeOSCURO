@@ -116,34 +116,11 @@ Escribir: y
 
 ------------------------------------------------------------
 
-2) Activar el entorno
-
-conda activate reto06_VerdeOscuro
-
-Debe aparecer:
-(reto06_VerdeOscuro)
-
-------------------------------------------------------------
-
-3) Crear el kernel para VS Code / Jupyter
-
-Ejecutar:
-
-python -m ipykernel install --user --name reto06_VerdeOscuro --display-name "Python (reto06_VerdeOscuro)"
-
-------------------------------------------------------------
-
-4) Seleccionar el intérprete en VS Code
+2) Seleccionar el intérprete en VS Code
 
 - Abrir el proyecto (preferiblemente usando el archivo .code-workspace).
 - Abajo a la derecha: “Seleccionar intérprete”.
 - Elegir: Python (reto06_VerdeOscuro).
-
-------------------------------------------------------------
-
-5) Listo
-
-El entorno ya está configurado y se puede trabajar en el proyecto.
 
 ============================================================
 
