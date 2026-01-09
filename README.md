@@ -54,49 +54,49 @@ RETO_06_VerdeOSCURO/
 
 ============================================================
 
-ORDEN DE EJECUCIÓN DE LOS NOTEBOOKS
+## ORDEN DE EJECUCIÓN DE LOS NOTEBOOKS
+------------------------------------------------------------
 
 Para garantizar la correcta reproducción del análisis y del flujo de datos,
 los notebooks deben ejecutarse en el siguiente orden:
 
-01-Limpieza.ipynb
-
-02-Analisis_Exploratorio.ipynb
-
-03-webscrapping.ipynb
-
-04-api.ipynb
-
-05-Dummies_Clustering.ipynb
-
-06-Clustering.ipynb
-
-07-Modelado.ipynb
-
-08-Modelado_PCA.ipynb
+1) 01-Limpieza.ipynb  
+2) 02-Analisis_Exploratorio.ipynb  
+3) 03-webscrapping.ipynb  
+4) 04-api.ipynb  
+5) 05-Dummies_Clustering.ipynb  
+6) 06-Clustering.ipynb  
+7) 07-Modelado.ipynb  
+8) 08-Modelado_PCA.ipynb  
+9) 09-ElasticSearch_Indexacion.ipynb  
 
 ============================================================
-CONTENIDO DE LA CARPETA packages
 
-La carpeta packages contiene módulos reutilizables desarrollados para el
+## CONTENIDO DE LA CARPETA `packages`
+------------------------------------------------------------
+
+La carpeta `packages` contiene módulos reutilizables desarrollados para el
 tratamiento y análisis de los datos.
 
-En particular, dentro de "packages/Preprocesamiento" se encuentra el archivo
-"funciones_limpieza.py", que incluye funciones auxiliares para la limpieza
+En particular, dentro de `packages/Preprocesamiento` se encuentra el archivo
+`funciones_limpieza.py`, que incluye funciones auxiliares para la limpieza
 y preparación de los datos.
 
-Entre ellas se encuentra la función "convertir_fechas", utilizada para
-convertir una o varias columnas de un DataFrame a formato "datetime",
+Entre ellas se encuentra la función `convertir_fechas`, utilizada para
+convertir una o varias columnas de un DataFrame a formato `datetime`,
 gestionando automáticamente distintos formatos de fecha y valores erróneos.
+
 ============================================================
 
-CONFIGURACIÓN DE LA API
+## CONFIGURACIÓN DE LA API
+------------------------------------------------------------
 
-La carpeta "config_files" contiene el archivo "api_config.json", donde se
+La carpeta `config_files` contiene el archivo `api_config.json`, donde se
 almacena la clave necesaria para el acceso a la API utilizada en el proyecto.
 
 Este enfoque permite separar la configuración sensible del código fuente
 y facilita la reutilización del proyecto sin modificar los notebooks.
+
 ============================================================
 
 
