@@ -28,6 +28,8 @@ RETO_06_VerdeOSCURO/
 ├── 05-Dummies_Clustering.ipynb
 ├── 06-Clustering.ipynb
 ├── 07-Modelado.ipynb
+├── 08-Modelado_PCA.ipynb
+├── 09-ElasticSearch_Indexacion.ipynb
 │
 ├── entorno_VERDEOSCURO_RET06.yml
 ├── .gitignore
@@ -52,17 +54,55 @@ RETO_06_VerdeOSCURO/
 
 ============================================================
 
+ORDEN DE EJECUCIÓN DE LOS NOTEBOOKS
+
+Para garantizar la correcta reproducción del análisis y del flujo de datos,
+los notebooks deben ejecutarse en el siguiente orden:
+
+01-Limpieza.ipynb
+
+02-Analisis_Exploratorio.ipynb
+
+03-webscrapping.ipynb
+
+04-api.ipynb
+
+05-Dummies_Clustering.ipynb
+
+06-Clustering.ipynb
+
+07-Modelado.ipynb
+
+08-Modelado_PCA.ipynb
+
+============================================================
+CONTENIDO DE LA CARPETA packages
+
+La carpeta packages contiene módulos reutilizables desarrollados para el
+tratamiento y análisis de los datos.
+
+En particular, dentro de "packages/Preprocesamiento" se encuentra el archivo
+"funciones_limpieza.py", que incluye funciones auxiliares para la limpieza
+y preparación de los datos.
+
+Entre ellas se encuentra la función "convertir_fechas", utilizada para
+convertir una o varias columnas de un DataFrame a formato "datetime",
+gestionando automáticamente distintos formatos de fecha y valores erróneos.
+============================================================
+
+CONFIGURACIÓN DE LA API
+
+La carpeta "config_files" contiene el archivo "api_config.json", donde se
+almacena la clave necesaria para el acceso a la API utilizada en el proyecto.
+
+Este enfoque permite separar la configuración sensible del código fuente
+y facilita la reutilización del proyecto sin modificar los notebooks.
+============================================================
+
+
 ## INSTRUCCIONES PARA INSTALAR EL ENTORNO (reto06_VerdeOscuro)
 ------------------------------------------------------------
-
-1) Requisitos previos
-- Tener Anaconda o Miniconda instalado.
-- Tener Git y Visual Studio Code instalados.
-- Tener el archivo entorno_VERDEOSCURO_RET06.yml dentro de la carpeta del proyecto.
-
-------------------------------------------------------------
-
-2) Crear el entorno con Conda
+1) Crear el entorno con Conda
 
 Abrir Anaconda Prompt, situarse en la carpeta del proyecto
 (donde está el archivo entorno_VERDEOSCURO_RET06.yml) y ejecutar:
@@ -76,7 +116,7 @@ Escribir: y
 
 ------------------------------------------------------------
 
-3) Activar el entorno
+2) Activar el entorno
 
 conda activate reto06_VerdeOscuro
 
@@ -85,7 +125,7 @@ Debe aparecer:
 
 ------------------------------------------------------------
 
-4) Crear el kernel para VS Code / Jupyter
+3) Crear el kernel para VS Code / Jupyter
 
 Ejecutar:
 
@@ -93,7 +133,7 @@ python -m ipykernel install --user --name reto06_VerdeOscuro --display-name "Pyt
 
 ------------------------------------------------------------
 
-5) Seleccionar el intérprete en VS Code
+4) Seleccionar el intérprete en VS Code
 
 - Abrir el proyecto (preferiblemente usando el archivo .code-workspace).
 - Abajo a la derecha: “Seleccionar intérprete”.
@@ -101,7 +141,7 @@ python -m ipykernel install --user --name reto06_VerdeOscuro --display-name "Pyt
 
 ------------------------------------------------------------
 
-6) Listo
+5) Listo
 
 El entorno ya está configurado y se puede trabajar en el proyecto.
 
