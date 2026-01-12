@@ -16,6 +16,15 @@ obtenidos.
 
 ============================================================
 
+## NOTA SOBRE LOS DATOS
+
+El archivo de datos original proporcionado por Líbere se denomina
+`cancellation_data_for_mondragon_unibertsitatea_2024.csv`.
+
+Con el objetivo de facilitar la lectura, el trabajo con los datos y la
+reutilización del proyecto, dicho archivo ha sido renombrado a
+`cancellation_data.csv`, manteniendo íntegramente su contenido original.
+
 ## ESTRUCTURA DEL PROYECTO
 ------------------------------------------------------------
 ```
